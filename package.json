@@ -1,0 +1,25 @@
+{
+  "name": "codelandia-efront",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx prettier --write \"src/**/*.+(js|css|html)\""
+    }
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "husky": "^8.0.3",
+    "postcss": "^8.4.32",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.9",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.0.0"
+  }
+}
