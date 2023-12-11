@@ -8,3 +8,4 @@ export function createUser(name, age, height) {
 }
 
 createUser("Herlon", 27, 1.8);
+createUser("Herlon", 27, 1.8);
